@@ -1,0 +1,71 @@
+<!--If you like please give an upvote and follow -->
+<!DOCTYPE html>
+<html>
+<head><title>CALCULATOR</title>
+<style>
+body
+{
+    background: #55DDAA;
+}
+#Heading
+{
+    padding: 15px;
+    background: #77AA99;
+}
+#Answer
+{
+    padding: 15px;
+    border: 1px solid black;
+}
+#Buttons
+{
+    background: #DDFFEE;
+    padding: 20px;
+}
+#btn
+{
+    width: 50px;
+    height: 50px;
+}
+#eq
+{
+    width: 50px;
+    height: 50px;
+}
+</style>
+</head>
+<body>
+<div id="Heading"><h1><p align="center"> AIMS COLLEGE OF ENGINEERING</h1>
+Calculator Made by Manohar
+<br />
+</div>
+<form name="calc" id="Buttons">
+<div id="Answer"><input style="border: 1px solid black;" type="textfield" name="ans" value=""/>
+<input type="reset" value="×" >
+</div>
+<br />
+<input type="button" value="7" id="btn" onClick="document.calc.ans.value+='7'">
+<input type="button" value="8" id="btn" onClick="document.calc.ans.value+='8'">
+<input type="button" value="9" id="btn" onClick="document.calc.ans.value+='9'">
+<input type="button" value="*" id="btn" onClick="document.calc.ans.value+='*'">
+<br />
+<input type="button" value="4" id="btn" onClick="document.calc.ans.value+='4'">
+<input type="button" value="5" id="btn" onClick="document.calc.ans.value+='5'">
+<input type="button" value="6" id="btn" onClick="document.calc.ans.value+='6'">
+<input type="button" value="/" id="btn" onClick="document.calc.ans.value+='/'">
+<br />
+<input type="button" value="1" id="btn" onClick="document.calc.ans.value+='1'">
+<input type="button" value="2" id="btn" onClick="document.calc.ans.value+='2'">
+<input type="button" value="3" id="btn" onClick="document.calc.ans.value+='3'">
+<input type="button" value="-" id="btn" onClick="document.calc.ans.value+='-'">
+<br />
+
+<input type="button" value="=" id="eq"  onClick="document.calc.ans.value=eval(document.calc.ans.value)">
+<input type="button" value="0" id="btn" onClick="document.calc.ans.value+='0'">
+<input type="button" value="." id="btn" onClick="document.calc.ans.value+='.'">
+<input type="button" value="+" id="btn" onClick="document.calc.ans.value+='+'">
+
+<br />
+</form>
+</body>
+</html>
